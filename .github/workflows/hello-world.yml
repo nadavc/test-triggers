@@ -16,4 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello world
+        if: github.event_name == 'push'
         run: echo "hello mundo2"
