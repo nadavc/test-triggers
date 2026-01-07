@@ -2,7 +2,7 @@ name: Hello World
 
 on:
   push:
-    oti:
+    branches:
       - main
   pull_request:
     types: [ closed ]
@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello world
-        run: echo "hello mundo"
+        run: echo "hello mundo2"
